@@ -27,6 +27,7 @@ Den Listen ist bewusst keine Gewichtung der Thesen möglich.
 
 
 Zur Installation wird einfach der Ordner mit allen Dateien auf den Webspace hochgeladen.
+Die config/data_template.json dann noch in config/data.json umgebennen und schon kanns losgehen.
 
 Ganz recht, das Ganze funktioniert ohne Datenbankanbindung. Dafür müssen für die Statistik Dateien verändert werden.
 Hierzu muss der Prozess des Webservers Schreibrechte für den 'data'-Ordner bekommen. 
