@@ -177,15 +177,13 @@ function print_thesesbox($theses, $form=false, $list=null){
 			echo "<div class='explic'>".$theses[$q_id]['x']."</div>";
 		}
 		echo "</div>";
-		
-		if($form){
-			$input = $list['comments'][$q_id];
-			echo "<div class='row'>
-			<div class='col-xs-12 col-sm-12 col-md-8 col-md-offset-2'>
-				<textarea id='input-$q_id' name='comments[$q_id]' class='form-control' rows='3' placeholder='Hier die Begründung eingeben...'>$input</textarea>
-			</div>
-			</div>";
-		}
+
+        $input = $list['comments'][$q_id];
+        echo "<div class='row'>
+            <div class='col-xs-12 col-sm-12 col-md-8 col-md-offset-2'>
+                <textarea id='input-$q_id' name='comments[$q_id]' class='form-control' rows='3' placeholder='Hier die Begründung eingeben...'>$input</textarea>
+            </div>
+        </div>";
 		
 		echo "</div>";
 	}
