@@ -185,10 +185,6 @@
       </script>
      <?php } ?>
      
-     <?php if(!$bars_only){?>
-     <p><small>Nicht zufrieden mit dem Ergebnis? Vielleicht willst du die Thesen <a href="multiplier.php" onclick="callPage(event, 'multiplier.php', <?php echo "'$answerstring', '$count'";?>)" title="Gewichtung ändern">anders gewichten</a>.</small></p>
-     <?php } ?>
-     
      <div id="result-bars">
      <table class="table table-bordered table-hover">
      <tr><th style="width: 200px;">Liste</th><th style="width:100px">Punkte</th><th style="width:640px;">Punkte</th></tr>
